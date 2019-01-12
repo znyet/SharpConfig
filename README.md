@@ -19,7 +19,7 @@ string name = section["name"].StringValue;
 int sex = section["sex"].IntValue;
 ```
 
-## write
+## Write
 ```c#
 string file = System.AppDomain.CurrentDomain.BaseDirectory + "\\Config2.ini";
 var config = new Configuration();
